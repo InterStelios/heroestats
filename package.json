@@ -1,0 +1,27 @@
+{
+  "name": "homm-stats",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "hydrate": "node ./src/hydrate.js",
+    "start": "node ./index.js",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.3",
+    "prettierrc": "^0.0.0-5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "find-package-json": "^1.1.0",
+    "jssoup": "^0.0.9",
+    "pretty-error": "^2.1.1",
+    "uuid": "^3.3.2"
+  }
+}

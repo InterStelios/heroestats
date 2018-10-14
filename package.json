@@ -1,27 +1,29 @@
 {
-  "name": "homm-stats",
+  "name": "heroestats",
   "version": "1.0.0",
   "main": "./src/index.js",
   "license": "MIT",
   "scripts": {
     "hydrate": "node ./src/hydrate.js",
-    "start": "node ./index.js",
-    "dev": "nodemon"
-  },
-  "devDependencies": {
-    "eslint": "^5.6.1",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-prettier": "^2.7.0",
-    "nodemon": "^1.18.4",
-    "prettier": "^1.14.3",
-    "prettierrc": "^0.0.0-5"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "dotenv": "^6.0.0",
+    "bulma": "^0.7.2",
     "find-package-json": "^1.1.0",
     "jssoup": "^0.0.9",
-    "pretty-error": "^2.1.1",
-    "uuid": "^3.3.2"
-  }
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.4"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
